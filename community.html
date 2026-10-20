@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudentHub - Community</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <div class="logo">
+                StudentHub
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="profile.html">Profile</a>
+                </li>
+
+                <li>
+                    <a href="courses.html">Courses</a>
+                </li>
+
+                <li>
+                    <a href="notes.html">Notes</a>
+                </li>
+
+                <li>
+                    <a href="community.html">Community</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Community Page -->
+
+    <main>
+
+        <section class="community-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    STUDENT COMMUNITY
+                </p>
+
+                <h1>
+                    Connect With Students
+                </h1>
+
+                <p>
+                    Share ideas, ask questions and learn
+                    together with other students.
+                </p>
+
+            </div>
+
+
+            <!-- Create Post -->
+
+            <div class="create-post-section">
+
+                <h2>
+                    Create a Post
+                </h2>
+
+                <form id="postForm">
+
+                    <div class="form-group">
+
+                        <label for="postTitle">
+                            Post Title
+                        </label>
+
+                        <input
+                            type="text"
+                            id="postTitle"
+                            placeholder="Enter your post title"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="postContent">
+                            Your Message
+                        </label>
+
+                        <textarea
+                            id="postContent"
+                            rows="5"
+                            placeholder="Share something with the community..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn primary-btn"
+                    >
+                        Publish Post
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <!-- Community Posts -->
+
+            <section class="posts-section">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        COMMUNITY POSTS
+                    </p>
+
+                    <h2>
+                        Recent Discussions
+                    </h2>
+
+                </div>
+
+
+                <div
+                    class="posts-container"
+                    id="postsContainer"
+                >
+
+                    <!-- Post 1 -->
+
+                    <article class="post-card">
+
+                        <div class="post-header">
+
+                            <div class="post-avatar">
+                                👤
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Student Name
+                                </h3>
+
+                                <p>
+                                    Student
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="post-content">
+
+                            <h3>
+                                Welcome to StudentHub
+                            </h3>
+
+                            <p>
+                                Welcome everyone! This is a
+                                place where students can share
+                                ideas, ask questions and help
+                                each other learn.
+                            </p>
+
+                        </div>
+
+
+                        <div class="post-actions">
+
+                            <button type="button">
+                                Like
+                            </button>
+
+                            <button type="button">
+                                Comment
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Post 2 -->
+
+                    <article class="post-card">
+
+                        <div class="post-header">
+
+                            <div class="post-avatar">
+                                👤
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Student Member
+                                </h3>
+
+                                <p>
+                                    Student
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="post-content">
+
+                            <h3>
+                                Study Group
+                            </h3>
+
+                            <p>
+                                Does anyone want to create
+                                a study group for the upcoming
+                                examinations?
+                            </p>
+
+                        </div>
+
+
+                        <div class="post-actions">
+
+                            <button type="button">
+                                Like
+                            </button>
+
+                            <button type="button">
+                                Comment
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h3>
+                StudentHub
+            </h3>
+
+            <p>
+                A simple community for students to
+                learn, share and connect.
+            </p>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 StudentHub. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="JavaScript/storage.js"></script>
+    <script src="JavaScript/app.js"></script>
+
+</body>
+
+</html>

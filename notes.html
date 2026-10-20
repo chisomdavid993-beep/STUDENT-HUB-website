@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudentHub - Notes</title>
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <div class="logo">
+                StudentHub
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="profile.html">Profile</a>
+                </li>
+
+                <li>
+                    <a href="courses.html">Courses</a>
+                </li>
+
+                <li>
+                    <a href="notes.html">Notes</a>
+                </li>
+
+                <li>
+                    <a href="community.html">Community</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Notes Page -->
+
+    <main>
+
+        <section class="notes-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    MY NOTES
+                </p>
+
+                <h1>
+                    Study Notes
+                </h1>
+
+                <p>
+                    Create, organize and review your
+                    important study notes.
+                </p>
+
+            </div>
+
+
+            <!-- Add Note -->
+
+            <div class="add-note-section">
+
+                <h2>
+                    Create a New Note
+                </h2>
+
+                <form id="noteForm">
+
+                    <div class="form-group">
+
+                        <label for="noteTitle">
+                            Note Title
+                        </label>
+
+                        <input
+                            type="text"
+                            id="noteTitle"
+                            placeholder="Enter note title"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="noteSubject">
+                            Subject
+                        </label>
+
+                        <input
+                            type="text"
+                            id="noteSubject"
+                            placeholder="Enter subject"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="noteContent">
+                            Note
+                        </label>
+
+                        <textarea
+                            id="noteContent"
+                            rows="6"
+                            placeholder="Write your note here..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn primary-btn"
+                    >
+                        Save Note
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <!-- Saved Notes -->
+
+            <section class="saved-notes-section">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        SAVED NOTES
+                    </p>
+
+                    <h2>
+                        Your Notes
+                    </h2>
+
+                </div>
+
+
+                <div
+                    class="notes-container"
+                    id="notesContainer"
+                >
+
+                    <!-- Notes will appear here -->
+
+                    <div class="note-card">
+
+                        <h3>
+                            Example Note
+                        </h3>
+
+                        <p class="note-subject">
+                            Computer Science
+                        </p>
+
+                        <p>
+                            Your saved notes will appear
+                            here when you create them.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h3>
+                StudentHub
+            </h3>
+
+            <p>
+                A simple community for students to
+                learn, share and connect.
+            </p>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 StudentHub. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="JavaScript/storage.js"></script>
+    <script src="JavaScript/app.js"></script>
+
+</body>
+
+</html>
